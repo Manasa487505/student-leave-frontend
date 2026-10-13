@@ -1,0 +1,201 @@
+/* ========================================================
+   LOGIN PAGE STYLES - COLLEGE LEAVE PORTAL
+   ======================================================== */
+
+.login-page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%);
+  padding: 24px 16px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 480px;
+  background-color: var(--bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.login-header {
+  background: var(--header-gradient);
+  color: #ffffff;
+  padding: 32px 28px;
+  text-align: center;
+}
+
+.login-portal-icon {
+  width: 58px;
+  height: 58px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.login-header h2 {
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: -0.01em;
+}
+
+.login-header p {
+  font-size: 0.88rem;
+  color: #bfdbfe;
+  line-height: 1.4;
+}
+
+.login-body {
+  padding: 32px 28px;
+}
+
+/* Role Selector Tabs */
+.role-selector-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.role-switch-group {
+  display: flex;
+  background-color: var(--bg-subtle);
+  padding: 4px;
+  border-radius: var(--radius-md);
+  margin-bottom: 22px;
+  border: 1px solid var(--border-color);
+}
+
+.role-tab-btn {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: var(--transition);
+}
+
+.role-tab-btn.active {
+  background-color: #ffffff;
+  color: var(--primary-blue);
+  box-shadow: var(--shadow-sm);
+}
+
+.role-tab-btn:hover:not(.active) {
+  color: var(--text-main);
+}
+
+/* Form Styles */
+.password-input-wrapper {
+  position: relative;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.password-toggle-btn:hover {
+  color: var(--text-main);
+}
+
+.btn-submit-login {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Demo Assistance Section */
+.demo-accounts-card {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: var(--radius-md);
+}
+
+.demo-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.demo-buttons-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.btn-demo-quickfill {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid var(--border-color);
+  padding: 8px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  color: var(--primary-navy);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.btn-demo-quickfill:hover {
+  background-color: var(--primary-soft);
+  border-color: var(--primary-light);
+  color: var(--primary-blue);
+}
+
+.demo-credentials-list {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.demo-credentials-list code {
+  background: #e2e8f0;
+  padding: 1px 5px;
+  border-radius: 4px;
+  color: #1e293b;
+  font-size: 0.75rem;
+}
+
+.demo-disclaimer {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+}
